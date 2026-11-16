@@ -1,0 +1,275 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.7rem;
+    background: #6e5a8e;
+    color: #fff7fb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+width: 80%;
+margin: auto;
+padding-bottom: 2rem;
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1{
+    color: #fff;
+    font-size:5rem;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 2.5rem 0;
+}
+
+h2{
+color: #130e57;
+font-size: 4rem;
+font-weight: 700;
+line-height: 1.2;
+text-align: center;
+margin: 2.5rem 0;
+}
+
+.btn{
+    border: solid rgb(43, 2, 25);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border-radius:2rem;
+    cursor: pointer;
+}
+
+
+header,footer{
+background: rgb(43, 2, 25);
+color: #fff;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+footer{
+    padding: 1rem 4rem;
+}
+
+
+.div-logo{
+    margin-left:3rem;
+    font-weight: bold;
+}
+
+.logo,
+.header-nav a {
+text-decoration: none;
+font-size: 3rem;
+color:inherit;
+display: inline-block;
+padding: 3rem;
+}
+
+.header-nav{
+    margin-right: 2rem;
+
+}
+
+.header-nav ul,
+footer .footer-list{
+    list-style: none;
+    display: flex;
+    gap: 0.1rem;
+}
+
+.footer-list li{
+ padding: 0.5rem;   
+}
+
+
+.footer-list img{
+    width:5rem ;
+    padding: 0.3rem;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   colores                                  */
+/* -------------------------------------------------------------------------- */
+
+.bg-primary {
+  background-color: #6e5a8e;
+}
+
+.bg-secondary {
+  background-color: #8a125a;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #fff;
+  text-align: center;
+}
+
+.text-secondary {
+  color: #020107;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    HOME                                    */
+/* -------------------------------------------------------------------------- */
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inicio h1{
+    width: 100%;
+    text-align: center;
+}
+
+.parrafo{
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+
+.contenedor-tarjetas{
+display: flex;
+justify-content: center;
+gap: 3rem;
+flex-wrap: wrap;
+align-items: stretch
+
+
+}
+
+
+.card{
+   
+    background-color: #8a79a8;
+    width: 38rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.card img{
+ width: 100%;   
+ height: 40rem;
+object-fit: cover;
+
+}
+
+.card p:last-of-type {
+    margin-top: auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  CONTACTOS                                 */
+/* -------------------------------------------------------------------------- */
+
+
+.contacto {
+    width: 100%;
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #8a79a8;
+    border-radius: 1rem;
+}
+
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.titulo-contacto {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campo-form label {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.campo-form input,
+.campo-form textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+
+.formulario-contacto .btn {
+    margin-top: 2rem;
+    align-self: center;
+}
+
+.contacto button,
+.formulario-contacto .btn {
+    margin-top: 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    LOGO                                    */
+/* -------------------------------------------------------------------------- */
+.logo {
+    text-decoration: none;
+    font-size: 3rem;
+    color: inherit;
+    display: inline-flex; 
+    align-items: center;   
+    gap: 1rem;              
+    padding: 2rem;
+}
+
+
+.img-logo {
+    height:4.5rem;
+    width: auto;
+    object-fit: contain;
+    }
