@@ -1,0 +1,32 @@
+[
+    {"id":"1",
+    "nombre":"producto 1",
+    "precio":20000,
+    "img":"img/Rosasblanca.jpg"
+
+    },
+
+    {"id":"2",
+    "nombre":"producto 2",
+    "precio":15000,
+    "img":"img/Girasole.jpg.jpg"
+
+    },
+
+    {"id":"3",
+    "nombre":"producto 3",
+    "precio":15000,
+    "img":"img/JaminyRosa.jpg"
+
+    },
+
+    {"id":"3",
+    "nombre":"producto 3",
+    "precio":15000,
+    "img":"img/ramorosas.jpg"
+
+    }
+
+
+
+]
