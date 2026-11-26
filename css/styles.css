@@ -273,3 +273,14 @@ object-fit: cover;
     width: auto;
     object-fit: contain;
     }
+
+
+    /* -------------------------------------------------------------------------- */
+    /*                                   carrito                                  */
+    /* -------------------------------------------------------------------------- */
+
+    .icono-carrito {
+  width: 32px; 
+  height: auto;
+  vertical-align: middle; 
+}
