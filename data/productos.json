@@ -20,9 +20,9 @@
 
     },
 
-    {"id":"3",
-    "nombre":"producto 3",
-    "precio":15000,
+    {"id":"4",
+    "nombre":"producto 4",
+    "precio":35000,
     "img":"img/ramorosas.jpg"
 
     }
