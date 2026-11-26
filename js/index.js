@@ -43,5 +43,8 @@ const renderizarProductos = () => {
     });
 };
 
-renderizarProductos();
-actualizarContador(obtenerCarrito());
+document.addEventListener("DOMContentLoaded", () => {
+  const carrito = obtenerCarrito();
+  actualizarContador(carrito);
+  renderizarProductos();
+});

@@ -1,27 +1,27 @@
 [
     {"id":"1",
-    "nombre":"producto 1",
+    "nombre":"Rosas Blancas",
     "precio":20000,
     "img":"img/Rosasblanca.jpg"
 
     },
 
     {"id":"2",
-    "nombre":"producto 2",
+    "nombre":"Girasoles",
     "precio":15000,
-    "img":"img/Girasole.jpg.jpg"
+    "img":"img/Girasole.jpg"
 
     },
 
     {"id":"3",
-    "nombre":"producto 3",
+    "nombre":"Jazmin y Rosas",
     "precio":15000,
     "img":"img/JaminyRosa.jpg"
 
     },
 
     {"id":"4",
-    "nombre":"producto 4",
+    "nombre":"Rosas",
     "precio":35000,
     "img":"img/ramorosas.jpg"
 
